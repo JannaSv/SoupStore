@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Soup Store</title>
+</head>
+<body>
+	<h1>Вход</h1>  
+	<div th:if="${error}">
+	Невозможно войти. Проверьте логин и пароль</div>
+	
+	<p>
+		<a th:href="@{/register}">Зарегистрироваться</a></p>
+		
+		<form method="POST" th:action="@{/login}" id="loginForm">
+			<label for="username">Логин: </label>
+			<input type="text" name="username" id="username"/><br/>
+			
+			<label for="password">Пароль: </label>
+			<input type="password" name="password" id="password"/><br/>
+			
+			<input type="submit" value="Войти"/>
+			
+		</form>
+</body>
+</html>
