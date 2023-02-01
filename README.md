@@ -9,8 +9,8 @@ Study Application
 
 Build with:
 
-Spring Framework;
-Spring Boot;
-Maven;
-Thymeleaf;
-JUnit
+  Spring Framework;
+  Spring Boot;
+  Maven;
+  Thymeleaf;
+  JUnit
