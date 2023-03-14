@@ -1,16 +1,16 @@
 # SoupStore
 Study Application
 
-Приложение сделано в учебных целях, основано на книге Spring in action (автор Крейг Уоллс).
+This application is for study purpose. It is based on the book Spring in action by Craig Walls.
 
-Приложение позволяет заказать суп из выбранных ингредиентов. 
+With SoupStore application the customer can order a soup made with custom ingredients. 
 Пользователь составляет свой рецепт супа из предложенного набора продуктов. 
 Тут же можно оформить его доставку.
 
 Build with:
 
+  Java;
   Spring Framework;
   Spring Boot;
   Maven;
   Thymeleaf;
-  JUnit
