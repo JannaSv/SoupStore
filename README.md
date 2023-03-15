@@ -7,8 +7,8 @@ With SoupStore application a client can order a soup made with custom ingredient
 
 Build with:
 
-  Java
-  Spring Framework
-  Spring Boot
-  Maven
+  Java,
+  Spring Framework,
+  Spring Boot,
+  Maven,
   Thymeleaf
