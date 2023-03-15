@@ -5,7 +5,7 @@ This application is for study purpose. It is based on the book Spring in action 
 
 With SoupStore application a client can order a soup made with custom ingredients. 
 
-Build with:
+Built with:
 
   Java,
   Spring Framework,
